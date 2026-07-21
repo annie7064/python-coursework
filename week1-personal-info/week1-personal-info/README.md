@@ -1,3 +1,4 @@
+ANWESHA DASH
 Documentation Requirements
 Complete guidelines for your project submission
 Personal Information Manager
@@ -26,10 +27,10 @@ Code Copy
 ===================================
      PERSONAL INFORMATION
 ===================================
-Name: John Doe
-Age: 25 (300 months old)
-City: New York
-Hobby: Reading
+name = "Anwesha Dash"
+age = 22
+city = "Bhubaneswar"
+hobby = "Crafting"
 
 Favorite Food: Pizza
 Favorite Color: Blue
