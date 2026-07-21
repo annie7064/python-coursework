@@ -1,0 +1,20 @@
+Please tell me about yourself:
+------------------------------
+What's your favorite food? Puri
+What's your favorite color? Red
+
+========================================
+        YOUR INFORMATION
+========================================
+
+Name: Anwesha Dash
+Age: 22 years (264 months old)
+City: Bhubaneswar
+Hobby: Crafting
+
+Favorite Food: Puri
+Favorite Color: Red
+
+========================================
+Thanks for using this program!
+========================================
