@@ -84,5 +84,4 @@ Challenge: Calculating multiple statistics
 
 Solution: Used list comprehensions and built-in functions
 
-Quality Standards Checklist
-All items must be included for full marks
+
