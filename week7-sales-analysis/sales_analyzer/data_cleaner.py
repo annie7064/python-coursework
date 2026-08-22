@@ -16,7 +16,8 @@ def clean_data(df):
     if 'total_amount' in cleaned.columns and 'quantity' in cleaned.columns and 'unit_price' in cleaned.columns:
         cleaned['total_amount'] = cleaned['quantity'] * cleaned['unit_price']
 
-    categorical_cols = cleaned.select_dtypes(include=['object']).columns
+    # Compatible with Pandas 2 & 3 string type selection
+    categorical_cols = cleaned.select_dtypes(include=['object', 'string']).columns
     for col in categorical_cols:
         if cleaned[col].isnull().sum() > 0:
             mode_val = cleaned[col].mode()[0]
